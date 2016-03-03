@@ -5,4 +5,5 @@ class Network(object):
     
     def __init__(self,nodes):
         self.layers = len(nodes)
-        self.neurons = nodes
+        self.neuronlist = nodes
+		#new content
